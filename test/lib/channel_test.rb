@@ -34,10 +34,12 @@ class ChannelTest < Minitest::Test
 
   def test_raises_exception_if_option_not_valid
     channel = ::EasyRss::Channel.new("Jeffrey Baird's Blog", "http://www.example.com", "An example feed", { bad_key: "hahaha"} )
-    assert_raises do
+    assert_raises(::EasyRss::InvalidChannelOption) do
       channel.all_fields_valid?
     end
   end
+
+  
 
 
 end

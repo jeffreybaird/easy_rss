@@ -26,9 +26,10 @@ module EasyRss
       @title, @link, @description, @optional_fields = title, link, description, optional_fields
     end
 
+    # For now we want to restrict keys to the ones allowed by the RSS 2.0 spec
     def all_fields_valid?
       optional_fields.keys.each do |key|
-        raise InvalidChannelOption, "#{key} is not an acceptable option" unless ALLOWED_FEILDS.include?(key)
+        raise InvalidChannelOption, "#{key} is not an acceptable option. Try one of the following #{ALLOWED_FEILDS.join(", ")}" unless ALLOWED_FEILDS.include?(key)
       end
     end
 
