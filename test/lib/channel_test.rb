@@ -39,7 +39,7 @@ class ChannelTest < Minitest::Test
     end
   end
 
-  
+
 
 
 end
