@@ -1,0 +1,50 @@
+<rss xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <channel>
+    <title>Jeff's Blog</title>
+    <link>http://www.jeffreyleebaird.com/</link>
+    <description>A weblog about scripting and stuff like that.</description>
+    <language>en-us</language>
+    <copyright>Copyright 2016 Jeffrey Baird</copyright>
+    <managingEditor>clarelennonbaird@gmail.com</managingEditor>
+    <webMaster>jeff@jeffreyleebaird.com</webMaster>
+    <pubDate>Saturday, 12 Dec 1987 00:00:00 EST</pubDate>
+    <lastBuildDate>Sunday, 08 May 2016 00:00:00 EDT</lastBuildDate>
+    <category>Newspapers</category>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <generator>EasyRss v0.1.0</generator>
+    <cloud domain="radio.xmlstoragesystem.com" port="80" path="/RPC2" registerProcedure="xmlStorageSystem.rssPleaseNotif" protocol="xml-rpc"/>
+    <ttl>60</ttl>
+    <image>
+      <url>http://www.jeffreyleebaird.com/</url>
+      <title>Jeff's Blog"</title>
+      <link>http://www.jeffreyleebaird.com/img/test.png</link>
+      <width>100</width>
+      <height>100</height>
+    </image>
+    <textInput>
+      <title>submit</title>
+      <description>Tell us what you think!</description>
+      <input>input</input>
+      <link>http://www.jeffreyleebaird.com/js/submit.js</link>
+    </textInput>
+    <skipHours>
+      <hour>0</hour>
+      <hour>11</hour>
+      <hour>23</hour>
+    </skipHours>
+      <day>Sunday</day>
+    <skipDays>
+    </skipDays>
+    <item>
+      <title>This is a test</title>
+      <link>http://www.jeffreyleebaird.com/blog/this_is_a_test</link>
+      <description>![CDATA[&#8220;Just because you love something doesn’t mean you can’t suck at it.&#8221; &#8211; Mike Rowe Mike Rowe (@mikeroweworks) is perhaps the best storyteller and pitchman I&#8217;ve ever had on the show. You might know Mike from his eight seasons of Dirty Jobs, but that&#8217;s just a tiny piece of the story. His performing career began in 1984 when he faked his way into [&#8230;]]]></description>
+      <author>Jeffrey Lee Baird</author>
+      <comments>http://www.jeffreyleebaird.com/comments/entry_id=290</comments>
+      <enclosure url="http://live.curry.com/mp3/celebritySCms.mp3" length="1069871" type="audio/mpeg"/>
+      <category>Science</category>
+      <source url="http://www.jeffreyleebaird.com/blog.rss">Rss source</source>
+      <guid>101</guid>
+    </item>
+  </channel>
+</rss>

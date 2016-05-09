@@ -10,13 +10,20 @@ module EasyRss
     :category,
     :generator,
     :docs,
-    :ttl
+    :cloud,
+    :ttl,
+    :image,
+    :textInput,
+    :skipHours,
+    :skipDays
   ]
 
   class InvalidChannelOption < StandardError; end
 
   class Channel
 
+    Image = Struct.new(:value,:url, :title, :link, :width, :height)
+    Cloud = Struct.new(:value,:domain, :port, :path, :protocol)
 
     # The RSS 2.0 Spec requires a title a link and a one sentence description.
     # Because we only want valid Feeds, these parameters are required.
