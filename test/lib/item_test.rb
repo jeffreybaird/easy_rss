@@ -1,4 +1,3 @@
-d
 require 'test_helper'
 
 

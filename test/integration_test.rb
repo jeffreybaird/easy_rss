@@ -26,7 +26,7 @@ class IntegrationTest < Minitest::Test
       channel.managingEditor = "clarelennonbaird@gmail.com"
       channel.webMaster      = "jeff@jeffreyleebaird.com"
       channel.pubDate        = "#{Time.new(2015,12,12).strftime("%A, %d %b %Y %H:%M:%S %Z")}"
-      channel.lastBuildDate  = "#{Time.new(2016,05,08).strftime("%A, %d %b %Y %H:%M:%S %Z")}"
+      channel.lastBuildDate  = "#{Time.new(2016,5,8).strftime("%A, %d %b %Y %H:%M:%S %Z")}"
       channel.category       = "Newspapers"
       channel.docs           = "https://validator.w3.org/feed/docs/rss2.html"
       channel.generator      = "EasyRss v#{EasyRss::VERSION}"
