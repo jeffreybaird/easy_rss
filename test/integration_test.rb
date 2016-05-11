@@ -17,7 +17,7 @@ class IntegrationTest < Minitest::Test
                     )
 
   def test_that_it_generates_a_fully_correct_document
-    feed = EasyRss.make do |channel|
+    feed = EasyRss::Feed.make do |channel|
       channel.title          = "Jeff's Blog"
       channel.link           = "http://www.jeffreyleebaird.com/"
       channel.description    = "A weblog about scripting and stuff like that."
