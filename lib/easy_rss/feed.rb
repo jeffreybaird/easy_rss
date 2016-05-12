@@ -3,10 +3,7 @@ module EasyRss
     
     attr_accessor :title, :link, :description
 
-    def initialize(title, link, description, options)
-      @title = title
-      @link = link
-      @description = description      
+    def initialize()
     end
 
   end
